@@ -1,0 +1,72 @@
+
+                            REACT - FRONT END TECHNOLOGY - Library
+                            --------------------------------------
+    ****Commands***
+    
+
+    1. Create project : npx create-react-app project-name
+    2. To run project : npm start    
+    3. Install 
+
+
+
+    ***Features***
+
+    1. Component Based Approach
+    2.  JSX(JavaScript XML)     
+    3. Virtual DOM
+    4. Fast 
+
+    5. Angular                React               Vue
+      ----------------------------------------------------   
+      -Framework:          -Library            -Framework 
+         -google              -Facebook           -Open Source   
+      -TypeScript          -JavaScript         -JavaScript
+      -Real DOM            -Virtual DOM        -Virtual DOM
+      -two way binding     -One way binding    -two way binding
+      
+    6. Components : components file name start with capital letter in src folder
+          - Class based Components / Stateful components
+            Example: Output Component
+          - Functional based / Stateless Components :help for create html components(js files)
+               Example: Random Component
+
+    7. Conditional Rendering : it gives o/p rendered by each of conditions
+    8. State : Used to store data inside a components and it can be shared with other components as well 
+    9. Data sharing from parent to child (only one way binding is possible in react )
+        - Using Props
+    10. React hooks 
+        - useState():to generate state in Functional component
+        - useEffect(): allows to perform side effects in your components
+        - useParams():return an object of key/valu
+        e pairs of the dynamic params from the 
+        - createStore(): to create store in redux
+        - useDispatch():dispatch actions from an component in react-redux
+        - useSelector(): to select update state from store in react-redux
+        - useNavigate(): to redirect from one page to another
+        - useContext(): share state between deeply nested components
+
+     11. To display an array: map array method
+     12. react-router-dom library :To set up route for components
+        - route: setup path for each component
+        - routes: to hold more route
+        - BrowserRouter: to routes all components
+        - Link: to navigate from one webpage to another
+     13. REDUX : State Management
+         - store: to hold all state, where all components can access state 
+             - create store.js file in src folder
+             - crateStore hook - to create store
+             - Provide the store to app: using <Provider> in index.js file
+         - action: to define logic needed by component to update state
+            - create action folder in src
+               - inside action folder , create action js file
+               - useDispatch hook : dispatch actions from an component
+         -  create constants folder in src
+               - inside constatnt folder , create constants js file to hold constants
+         - reducer: to update state and adding the update state in store
+            - create reducers folder in src
+                - inside reducers folder , create reducer js file
+     14. createContext: create a context that components can provide or read           
+    
+
+
